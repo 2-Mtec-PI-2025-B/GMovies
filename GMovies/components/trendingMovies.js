@@ -34,7 +34,6 @@ export default function TrendingMovies({ data }) {
   )
 }
 
-
 const MovieCard = ({ item, handleClick }) => {
   return (
     <TouchableWithoutFeedback onPress={() => handleClick(item)}>
